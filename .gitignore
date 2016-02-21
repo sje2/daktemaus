@@ -1,0 +1,20 @@
+
+#Monodevelop
+*.pidb
+*.resources
+*.userprefs
+test-results/
+#Output
+[Bb]in
+[Rr]elease
+[Dd]ebug
+
+#Autosave files
+*~
+
+#Visual Studio files
+*.suo
+*.user
+[Oo]bj
+
+
