@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DakteMaus", "DakteMaus\DakteMaus.csproj", "{66ECF5EA-A18D-4E50-97CE-122C15C29A98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DakteEngine", "DakteEngine\DakteEngine.csproj", "{0CD38F72-118C-4B1A-9CA7-EBACCA9FB731}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CD38F72-118C-4B1A-9CA7-EBACCA9FB731}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0CD38F72-118C-4B1A-9CA7-EBACCA9FB731}.Debug|x86.Build.0 = Debug|Any CPU
+		{0CD38F72-118C-4B1A-9CA7-EBACCA9FB731}.Release|x86.ActiveCfg = Release|Any CPU
+		{0CD38F72-118C-4B1A-9CA7-EBACCA9FB731}.Release|x86.Build.0 = Release|Any CPU
+		{66ECF5EA-A18D-4E50-97CE-122C15C29A98}.Debug|x86.ActiveCfg = Debug|x86
+		{66ECF5EA-A18D-4E50-97CE-122C15C29A98}.Debug|x86.Build.0 = Debug|x86
+		{66ECF5EA-A18D-4E50-97CE-122C15C29A98}.Release|x86.ActiveCfg = Release|x86
+		{66ECF5EA-A18D-4E50-97CE-122C15C29A98}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal
