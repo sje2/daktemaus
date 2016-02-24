@@ -11,6 +11,8 @@ namespace DakteEngine
 		private float mSpeed;
 		//just a texture, soon to be replaced with a list of them or a texture atlas
 		private Texture2D mTexture;
+		//texture number that we're currently on
+		private int mFrameNumber;
 		#endregion
 
 		#region Properties
@@ -22,6 +24,14 @@ namespace DakteEngine
 		{
 			mTexture = texture;
 			mSpeed = speed;
+		}
+
+		public void Start() {
+
+		}
+
+		public void Update() {
+
 		}
 	}
 }

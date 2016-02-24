@@ -22,10 +22,10 @@ namespace DakteMaus
 			if (state.IsKeyDown (Keys.Escape)) {
 				mHost.Exit ();
 			}
-			if (state.IsKeyDown(Keys.Right)) {
+			if (state.IsKeyDown(Keys.Right) || state.IsKeyDown(Keys.NumPad6)) {
 				mHost.RunRightCommand ();
 			}
-			if (state.IsKeyDown(Keys.Left)) {
+			if (state.IsKeyDown(Keys.Left) || state.IsKeyDown(Keys.NumPad4)) {
 				mHost.RunLeftCommand ();
 			}
 			if (state.IsKeyDown(Keys.Space) && ! mPrevState.IsKeyDown(Keys.Space)) {

@@ -34,6 +34,9 @@
     <Reference Include="MonoGame.Framework">
       <HintPath>..\packages\MonoGame.Framework.Portable.3.2.99.1-Beta\lib\portable-net40+sl50+win+wpa81+wp80+MonoAndroid10+MonoTouch10\MonoGame.Framework.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.8.0.2\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -49,5 +52,7 @@
     <Compile Include="Camera.cs" />
     <Compile Include="Utility.cs" />
     <Compile Include="States.cs" />
+    <Compile Include="ActionState.cs" />
+    <Compile Include="ActorCommand.cs" />
   </ItemGroup>
 </Project>

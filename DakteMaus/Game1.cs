@@ -73,7 +73,7 @@ namespace DakteMaus
 
 			mWorld.AddActor (mPlayer);
 
-
+			ActionState testState = Utility.LoadFromJson<ActionState> ("Content/newton_standing_actionstate.json");
 
 			Solid s1 = new Solid (new Vector2 (300, 100), new Vector2 (0, 0), new Vector2 (0, 0));
 			Texture2D t1 = Utility.GenerateRectangleTexture (this.GraphicsDevice, (int)s1.Size.X, (int)s1.Size.Y, Color.Red);

@@ -1,0 +1,31 @@
+﻿{
+	"Name": "default",
+	"SpriteSheetPath": "Content/newton/newton_right_stand_20x20x1",
+	"DurationMs": "20",
+	"Looping": "true",
+	"Commands": 
+	[
+		{
+			"What": "Move",
+			"WhenMs": "25",
+			"WhereX": "0",
+			"WhereY": "1"
+			},
+
+		{
+			"What": "Accelerate",
+			"WhenMs": "43",
+			"WhereX": "23",
+			"WhereY": "12"
+
+			},
+
+		{
+			"What": "Move",
+			"WhenMs": "66",
+			"WhereX": "-20",
+			"WhereY": "0"
+			},
+	]
+
+}

@@ -2,6 +2,9 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
+using System.IO;
+using Newtonsoft;
+
 namespace DakteEngine
 {
 	public static class Utility
@@ -16,6 +19,24 @@ namespace DakteEngine
 
 			return t;
 		}
+
+		#region JSON
+		public static T LoadFromJson<T>(string path) {
+			using (Stream fileStream = TitleContainer.OpenStream(path)) {
+				using (StreamReader reader = new StreamReader (fileStream)) {
+					if (reader != null) {
+						string json = reader.ReadToEnd ();
+
+						T ret = Newtonsoft.Json.JsonConvert.DeserializeObject<T> (json);
+
+						return ret;
+					}
+				}
+			}
+			return default(T);
+		}
+		#endregion
 	}
+
 }
 
